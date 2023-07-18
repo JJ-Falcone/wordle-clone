@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+body{
+    background: #14161C;
+}
+
+header{
+    height: 5rem;
+    border-bottom: 1px solid #585858;
+    display: flex;
+    align-items: center;
+    margin-bottom: 7.19rem;   
+}
+
+h1{
+    margin-left: 4.44rem;
+    color: #2F2D2D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter';
+    font-size: 2.25rem;
+    font-weight: 700;
+    background: #F9FF00;
+    width: 3.1875rem;
+    height: 3.1875rem;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2.37rem;
+}
+
+.jogo{
+    display: flex;
+    flex-direction: column;
+    gap: 0.31rem
+}
+
+.linha{
+    display: flex;
+    gap: 0.31rem;
+}
+
+.linha h2{
+    border: 1px solid #585858;
+    background: #14161C;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter';
+    font-size: 2.25rem;
+    font-weight: 700;
+    width: 3.875rem;
+    height: 3.875rem;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: row;
+    width: 29.6875rem;
+    flex-wrap: wrap;
+    gap: 0.31rem;
+    justify-content: center;
+}
+
+.botoes .botao__letra{
+    width: 2.6875rem;
+    height: 3.625rem;
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 1.375rem;
+    font-weight: 700;
+    background: #818384;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.botao__enter{
+    width: 5.1875rem;
+    font-size: 1.0625rem;
+    background: #818384;
+    font-family: 'Inter';
+    font-weight: 700;
+    color: #FFF;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.apagar{
+    background: #818384;
+    cursor: pointer;
+}

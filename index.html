@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <title>Wordle Falcone</title>
+</head>
+<body>
+    <header>
+        <h1>W</h1>
+    </header>
+    
+    <main>
+        <section class="jogo">
+            <div class="linha" id="1">
+                <h2 style='text-transform:uppercase' maxlength="1"></h2>
+                <h2 style='text-transform:uppercase' maxlength="1"></h2>
+                <h2 style='text-transform:uppercase' maxlength="1"></h2>
+                <h2 style='text-transform:uppercase' maxlength="1"></h2>
+                <h2 style='text-transform:uppercase' maxlength="1"></h2>
+            </div>
+            <div class="linha" id="2">
+                <h2 style='text-transform:uppercase' maxlength="1"></h2>
+                <h2 style='text-transform:uppercase' maxlength="1"></h2>
+                <h2 style='text-transform:uppercase' maxlength="1"></h2>
+                <h2 style='text-transform:uppercase' maxlength="1"></h2>
+                <h2 style='text-transform:uppercase' maxlength="1"></h2>
+            </div>
+            <div class="linha" id="3">
+                <h2 style='text-transform:uppercase' maxlength="1"></h2>
+                <h2 style='text-transform:uppercase' maxlength="1"></h2>
+                <h2 style='text-transform:uppercase' maxlength="1"></h2>
+                <h2 style='text-transform:uppercase' maxlength="1"></h2>
+                <h2 style='text-transform:uppercase' maxlength="1"></h2>
+            </div>
+            <div class="linha" id="4">
+                <h2 style='text-transform:uppercase' maxlength="1"></h2>
+                <h2 style='text-transform:uppercase' maxlength="1"></h2>
+                <h2 style='text-transform:uppercase' maxlength="1"></h2>
+                <h2 style='text-transform:uppercase' maxlength="1"></h2>
+                <h2 style='text-transform:uppercase' maxlength="1"></h2>
+            </div>
+            <div class="linha" id="5">
+                <h2 style='text-transform:uppercase' maxlength="1"></h2>
+                <h2 style='text-transform:uppercase' maxlength="1"></h2>
+                <h2 style='text-transform:uppercase' maxlength="1"></h2>
+                <h2 style='text-transform:uppercase' maxlength="1"></h2>
+                <h2 style='text-transform:uppercase' maxlength="1"></h2>
+            </div>
+            <div class="linha" id="6">
+                <h2 style='text-transform:uppercase' maxlength="1"></h2>
+                <h2 style='text-transform:uppercase' maxlength="1"></h2>
+                <h2 style='text-transform:uppercase' maxlength="1"></h2>
+                <h2 style='text-transform:uppercase' maxlength="1"></h2>
+                <h2 style='text-transform:uppercase' maxlength="1"></h2>
+            </div>
+        </section>
+
+        <section class="botoes">
+            <button id="tecladoVirtual" class="botao__letra Q" value="Q">Q</button>
+            <button id="tecladoVirtual" class="botao__letra W" value="W">W</button>
+            <button id="tecladoVirtual" class="botao__letra E" value="E">E</button>
+            <button id="tecladoVirtual" class="botao__letra R" value="R">R</button>
+            <button id="tecladoVirtual" class="botao__letra T" value="T">T</button>
+            <button id="tecladoVirtual" class="botao__letra Y" value="Y">Y</button>
+            <button id="tecladoVirtual" class="botao__letra U" value="U">U</button>
+            <button id="tecladoVirtual" class="botao__letra I" value="I">I</button>
+            <button id="tecladoVirtual" class="botao__letra O" value="O">O</button>
+            <button id="tecladoVirtual" class="botao__letra P" value="P">P</button>
+            <button id="tecladoVirtual" class="botao__letra A" value="A">A</button>
+            <button id="tecladoVirtual" class="botao__letra S" value="S">S</button>
+            <button id="tecladoVirtual" class="botao__letra D" value="D">D</button>
+            <button id="tecladoVirtual" class="botao__letra F" value="F">F</button>
+            <button id="tecladoVirtual" class="botao__letra G" value="G">G</button>
+            <button id="tecladoVirtual" class="botao__letra H" value="H">H</button>
+            <button id="tecladoVirtual" class="botao__letra J" value="J">J</button>
+            <button id="tecladoVirtual" class="botao__letra K" value="K">K</button>
+            <button id="tecladoVirtual" class="botao__letra L" value="L">L</button>
+            <button id="tecladoVirtual" class="botao__enter" value="enter">ENTER</button>
+            <button id="tecladoVirtual" class="botao__letra Z" value="Z">Z</button>
+            <button id="tecladoVirtual" class="botao__letra X" value="X">X</button>
+            <button id="tecladoVirtual" class="botao__letra C" value="C">C</button>
+            <button id="tecladoVirtual" class="botao__letra V" value="V">V</button>
+            <button id="tecladoVirtual" class="botao__letra B" value="B">B</button>
+            <button id="tecladoVirtual" class="botao__letra N" value="N">N</button>
+            <button id="tecladoVirtual" class="botao__letra M" value="M">M</button>
+            <button id="tecladoVirtual" class="botao__letra" value="backspace"><img id="teclaApagarImg" class="backspace"src="apagar 1.svg" alt=""></button>
+        </section>
+    </main>
+
+    <script type="module" src="JS/randomizaPalavra.js"></script>
+    <script type="module" src="JS/leClique.js"></script>
+    <script type="module" src="JS/verificaTentativa.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</body>
+</html>
