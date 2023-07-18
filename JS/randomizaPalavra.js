@@ -11,7 +11,6 @@ export async function escolhePalavra(){
     const numero = Math.floor(Math.random() * (listaDePalavras.length - 1))
     const palavra = listaDePalavras[numero]
 
-    console.log(palavra);
 
     return[palavra, listaValida];
 }

@@ -40,7 +40,7 @@ export function acertou(){
     Toastify({
         text: "Jogar novamente!",
         duration: -1,
-        destination: "#",
+        destination: "https://wordle-clone-ebon.vercel.app/",
         gravity: "bottom",
         position: "center",
         stopOnFocus: true,
