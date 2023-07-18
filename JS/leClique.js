@@ -63,9 +63,23 @@ function escrita(event){
                             duration: -1,
                             gravity: "top",
                             position: "center",
+                            offset: {
+                                y: 85 },
                             stopOnFocus: true,
                             style: {
                             background: "#C21010",
+                            },
+                        }).showToast();
+
+                        Toastify({
+                            text: "Jogar novamente!",
+                            duration: -1,
+                            destination: "#",
+                            gravity: "bottom",
+                            position: "center",
+                            stopOnFocus: true,
+                            style: {
+                            background: "#F7C04A",
                             },
                         }).showToast();
                     }

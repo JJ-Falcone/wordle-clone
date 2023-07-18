@@ -101,3 +101,9 @@ main{
     background: #818384;
     cursor: pointer;
 }
+
+.toastify {
+    font-family: 'Inter';
+    font-size: 3rem;
+}
+

@@ -29,9 +29,23 @@ export function acertou(){
         duration: -1,
         gravity: "top",
         position: "center",
+        offset: {
+            y: 85 },
         stopOnFocus: true,
         style: {
         background: "#557A46",
+        },
+    }).showToast();
+
+    Toastify({
+        text: "Jogar novamente!",
+        duration: -1,
+        destination: "#",
+        gravity: "bottom",
+        position: "center",
+        stopOnFocus: true,
+        style: {
+        background: "#F7C04A",
         },
     }).showToast();
 }
